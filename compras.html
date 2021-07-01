@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trabajo Final</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/jquery.min.js"></script>
+
+
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- start menu -->
+    <script src="js/simpleCart.min.js">
+    </script>
+    <!-- start menu -->
+    <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/memenu.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".memenu").memenu();
+        });
+    </script>
+    <!-- /start menu -->
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header-top">
+        <div class="header-bottom">
+            <div class="logo">
+                <h1><a href="index.html">MEGACOMPU</a></h1>
+            </div>
+            <!---->
+            <div class="top-nav">
+                <ul class="memenu skyblue">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li class="grid"><a href="#">Productos</a>
+                        <div class="mepanel">
+
+                            <div class="col1 me-one">
+                                <h4>Tienda</h4>
+                                <ul>
+                                    <li><a href="productos.html">Computadores</a></li>
+                                    <li><a href="productos.html">Laptos</a></li>
+                                    <li><a href="productos.html">Acessorios</a></li>
+                                    <li><a href="productos.html">Impresoras</a></li>
+                                    <li><a href="productos.html">Protectores</a></li>
+
+                                </ul>
+
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="grid"><a href="#">Acesorios</a>
+                        <div class="mepanel">
+
+                            <div class="col1 me-one">
+                                <h4>Tienda</h4>
+                                <ul>
+                                    <li><a href="productos.html">Dispositivos de Almacenamiento</a></li>
+                                    <li><a href="productos.html">Audifonos</a></li>
+                                    <li><a href="productos.html">Teclados</a></li>
+                                    <li><a href="productos.html">Mouse</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="grid"><a href="contacto.html">Contactos</a></li>
+                </ul>
+            </div>
+            <!---->
+
+            <div class="clearfix"> </div>
+            <!---->
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-- check out -->
+    <div class="container">
+        <div class="check-sec">
+            <div class="col-md-3 cart-total">
+                <a class="continue" href="productos.html">Continuar comprando</a>
+                <div class="price-details">
+                    <h3>Detalles a Pagar</h3>
+                    <span>Total</span>
+                    <span class="total1">2500.00</span>
+                    <span>Iva</span>
+                    <span class="total1">12%(Iva)</span>
+
+                    <div class="clearfix"></div>
+                </div>
+                <ul class="total_price">
+                    <li class="last_price">
+                        <h4>TOTAL</h4>
+                    </li>
+                    <li class="last_price"><span>6150.00</span></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="clearfix"></div>
+                <a class="order" href="#">Realizar Compra</a>
+
+            </div>
+            <div class="col-md-9 cart-items">
+                <h1>Lista de Productos</h1>
+                <script>
+                    $(document).ready(function(c) {
+                        $('.close1').on('click', function(c) {
+                            $('.cart-header').fadeOut('slow', function(c) {
+                                $('.cart-header').remove();
+                            });
+                        });
+                    });
+                </script>
+                <div class="cart-header">
+                    <div class="close1"> </div>
+                    <div class="cart-sec simpleCart_shelfItem">
+                        <div class="cart-item cyc">
+                            <img src="images/laptop1.png" class="img-responsive" alt="" />
+                        </div>
+                        <div class="cart-item-info">
+                            <h3><a href="#">Mirar Producto</a><span>Laptop Core i5 Acer</span>
+                            </h3>
+                            <ul class="qty">
+                                <li>
+                                    <p>Tamaño : 14 px</p>
+                                </li>
+                                <li>
+                                    <p>Cantidad : 1</p>
+                                </li>
+                                <li>
+                                    <p>Precio : $ 1000</p>
+                                </li>
+                            </ul>
+                            <div class="delivery">
+                                <span>Entrega en  2-3 Días Laborables<span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function(c) {
+                        $('.close2').on('click', function(c) {
+                            $('.cart-header2').fadeOut('slow', function(c) {
+                                $('.cart-header2').remove();
+                            });
+                        });
+                    });
+                </script>
+                <div class="cart-header2">
+                    <div class="close2"> </div>
+                    <div class="cart-sec simpleCart_shelfItem">
+                        <div class="cart-item cyc">
+                            <img src="images/audifonos.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="cart-item-info">
+                            <h3><a href="#">Mirar producto</a><span>Audifonos gamer</span></h3>
+                                <ul class="qty">
+                                    <li>
+                                        <p>Size : 5</p>
+                                    </li>
+                                    <li>
+                                        <p>Cantidad : 2</p>
+                                    </li>
+                                    <li>
+                                        <p>Precio : $ 60</p>
+                                    </li>
+                                </ul>
+                                <div class="delivery">
+                                    <span>Entrega en  2-3 Días Laborables<span>
+									<div class="clearfix"></div>
+								</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!-- //check out -->
+        <!---->
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-grids">
+                    <div class="col-md-3 about-us">
+                        <h3>Acerca de nosotros</h3>
+                        <p>Empresa de productos tecnológicos al servicio de la gente</p>
+                    </div>
+                    <div class="col-md-3 ftr-grid">
+                        <h3>Información</h3>
+                        <ul class="nav-bottom">
+                            <li><a href="#">Soporte Técnico</a></li>
+                            <li><a href="#">Dsipositivos de almacenamiento</a></li>
+                            <li><a href="#">Dispositivos de Entrada </a></li>
+                            <li><a href="#">Dispositivos de Salida</a></li>
+                            <li><a href="#">Nuestras tiendas físicas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 ftr-grid">
+                        <h3>Más Información</h3>
+                        <ul class="nav-bottom">
+                            <li><a href="#">Registro</a></li>
+                            <li><a href="contact.html">Contactos</a></li>
+                            <li><a href="#">Miebros</a></li>
+                            <li><a href="#">Comunidad</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 ftr-grid">
+                        <h3>Categorías</h3>
+                        <ul class="nav-bottom">
+                            <li><a href="#">Computadores</a></li>
+                            <li><a href="#">Laptos</a></li>
+                            <li><a href="#">Impresoras</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Protectores</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <div class="container">
+
+                <div class="social">
+                    <a href="#"><i class="facebook"></i></a>
+                    <a href="#"><i class="twitter"></i></a>
+                    <a href="#"><i class="dribble"></i></a>
+                    <a href="#"><i class="google"></i></a>
+                    <a href="#"><i class="youtube"></i></a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!---->
+</body>
+
+</html>
